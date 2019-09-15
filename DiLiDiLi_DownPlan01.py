@@ -65,7 +65,7 @@ class DownAll(object):
         self.max_len = len(self.pagelist_json)
 
     def getVideo(self, url):
-        print(self.session.get(url, headers=self.simple_headers, verify=False))
+        # print(self.session.get(url, headers=self.simple_headers, verify=False))
         durl = self.session.get(url, headers=self.simple_headers, verify=False).json()["data"]["durl"][0]
         self.url = durl["url"]
         self.size = durl["size"]
