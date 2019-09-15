@@ -1,4 +1,46 @@
-# 思路
+# DiLiDiLi（DownBiLiDownBili）
+
+# 哔哩哔哩视频下载器
+
+## 发布
+
+最新更新时间：2019年9月15日20:57:18
+
+最新测试时间：2019年9月15日20:57:32
+
+## 使用说明
+
+启动`DiLiDiLi_Starter.py`文件
+
+## 测试环境
+
+- window 10 x64
+- python 3.6
+
+## 文件说明
+
+| 文件                   | 说明               |
+| ---------------------- | ------------------ |
+| DiLiDiLi_Starter.py    | 启动主程序         |
+| DynamicHeaders.py      | 一些常用请求头     |
+| DynamicProxies.py      | 动态代理相关       |
+| MediaHandler.py        | 视频合成相关       |
+| DiLiDiLi_DownPlan02.py | 音视频分离下载方案 |
+| DiLiDiLi_DownPlan01.py | 完全下载           |
+| video_down             | 纯视频文件夹       |
+| audio_down             | 纯音频文件夹       |
+| synthetic_success      | 合成成功           |
+| download               | 完全下载文件夹     |
+| ProxiesData.json       | 动态代理的数据     |
+
+## 关于作者
+
+- author：mmciel
+
+- QQ：761998179
+
+# 开发思路
+
 ## 视频数据初探
 ### 视频格式
 
@@ -95,5 +137,3 @@ qn 清晰度
 - session持久化
 - 变更请求头
 - 开启网络代理
-
-## 
